@@ -1,5 +1,5 @@
 site_name: My MkDocs
 
 nav:
-- Inicio: index.md
-- Nueva: nueva.md
+  - Inicio: index.md
+  - Nueva: nueva.md
