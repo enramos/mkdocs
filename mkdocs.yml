@@ -1,5 +1,17 @@
 site_name: My MkDocs
+site_url: https://enramos.es/mkdocs/
+site_description: Pruebas con MkDocs
+site_author: Enrique Ramos Ortiz
+repo_url: https://github.com/enramos/mkdocs
+
+theme: material
+
+plugins:
+  - mkdocstrings
 
 nav:
   - Inicio: index.md
   - Nueva: nueva.md
+  - Subpáginas:
+    - OpenAPI: https://datosgobar.github.io/series-tiempo-ar-api
+    - Página 2: pagina2.md
